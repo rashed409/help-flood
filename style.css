@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+.banner{
+    padding: 150px 0px;
+    background-image: url(images/donation12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  
+
+}
+.banner > .banner-text{
+    width: 30%;
+    margin: 0 auto;
+    color: #fff;
+    z-index:5;
+    text-align: center;
+    position: relative;
+  
+}
+.banner .banner-text p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.banner{
+    position: relative;
+  }
+.banner:after {
+    content:'';
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: rgba(39, 39, 39, 0.5);
+  
+  }
+.btn{
+    background-color: #FF5959;
+    padding: 10px 12px ;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 4%;
+}
+/* donate today css */
+.donate{
+    padding: 50px 0px;
+}
+.donate-title{
+    text-align: center;
+}
+.donate p{
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+}
+.donate-money{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+ 
+}
+.donate-money .money{
+    width: 10% ;
+    height: 50px ;
+    background-color: #ddd;
+ 
+}
+.donate-money .money:hover{
+    border-color: #FF5959;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+}
+.donate-money .money p{
+    text-align: center;
+    margin-top: 5%;
+}
+.amount-input{
+   
+    padding-left: 100px;
+    
+}
+.input-wrapper {
+    width: 66%;
+    margin: 2% auto;
+    text-align: center;
+}
+.inputfild input{
+    width: 50%;
+    outline: 0;
+    border-width: 0 0 2px;
+   
+}
+.inputfild input::placeholder{
+    text-align: center;
+}
+/* our donate plan */
+.our-donate-plane{
+    padding: 50px 50px;
+}
+.our-donate-plane h1{
+    text-align: center;
+}
+.our-donate-plane .donatepara{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.planer-wrapper{
+    display: flex;
+    gap: 15px;
+    margin-top: 5%;
+    padding: 0px 50px;
+}
+.plan1{
+    background-color: #4F9DA6;
+    padding: 20px 15px;
+    opacity: 0.8;
+    width: 30%;
+}
+.plan2{
+    background-color: #FF5959;
+    padding: 20px 15px;
+    opacity: 0.8;
+    width: 30%;
+}
+.plan3{
+    background-color: #FFF4D6;
+    padding: 20px 15px;
+    opacity: 0.8;
+    width: 30%;
+}
+.plan1 img,.plan2 img, .plan3 img{
+    width: 20%;
+}
+/* update */
+.update{
+
+}
+.update h1{
+    text-align: center;
+}
+.update p{
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+}
+.email-wrapper {
+    width: 50%;
+    margin: 1% auto;
+    padding: 50px 183px;
+    background-color: #FFF4D6;
+}
+.email{
+    
+}
+.email input{
+    outline: 0;
+    background-color: #D9D9D9;
+    padding: 10px 30px;
+    border: none;
+}
+/*  */
+.btns{
+    background-color: #FF5959;
+    padding: 10px 12px ;
+    color: #fff;
+    border: none;
+    border-radius: 0 8px 8px 0px;
+    margin-top: 4%;
+}
+.email .btns{
+    margin-left: -3%;
+    
+}
+ /* form-area */
+ #feedback-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+  }
+  
+  #feedback-form * {
+      box-sizing: border-box;
+  }
+  
+  #feedback-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+  }
+  
+  #feedback-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #feedback-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
+  
+
+  #feedback-form #feedback-phone {
+    transition: .3s;
+  }
+  
+  #feedback-form button[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    
+    background: #207cca; /* Old browsers */
+    background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+  }
+
+Footer{
+    background-color: black;
+    padding: 30px 50px;
+    color: white;
+    text-align: center;
+}
+Footer h1{
+    font-size: 25px;
+}
+Footer h3{
+    color: #FF5959;
+}
